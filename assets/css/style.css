@@ -290,7 +290,7 @@ a:hover {
 }
 
 .nav-btn {
-   font-family: "Manrope", sans-serif; 
+   font-family: "Manrope", sans-serif;
    font-size: 21px;
    font-weight: 700;
    color: #fff;
@@ -300,6 +300,35 @@ a:hover {
    margin-left: 38px;
 }
 
+.banner-heading {
+   text-align: center;
+}
+
+.banner-heading h2 {
+   font-family: "Arimo", sans-serif;
+   font-size: 90px;
+   font-weight: 700;
+   color: #fff;
+}
+
+.banner-heading span {
+   background: linear-gradient(90deg, #FFFFFF 15.43%, #FD49FF 52.51%);
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+
+.banner-heading h1 {
+   font-family: "Arimo", sans-serif;
+   font-size: 140px;
+   font-weight: 700;
+   color: #fff;
+}
+.banner-heading p{
+   font-family: "Urbanist", sans-serif;
+   font-size: 28px;
+   font-weight: 600;
+   color: #fff;
+}
 /**************************************/
 /************header banner area ******/
 /************************************/
