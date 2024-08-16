@@ -337,7 +337,7 @@ a:hover {
    justify-content: center;
    align-items: center;
    gap: 15px;
-   padding-top: 57px;
+   padding-top: 88px;
    padding-bottom: 181px;
 }
 
@@ -366,7 +366,8 @@ a:hover {
    display: flex;
    align-items: center;
 }
-.banner-try-demo-btn i{
+
+.banner-try-demo-btn i {
    height: 45px;
    width: 45px;
    display: flex;
@@ -375,6 +376,23 @@ a:hover {
    background-color: #fff;
    border-radius: 100%;
    margin-left: 87px;
+}
+
+/* technology partner */
+.technology-partner h1 {
+   font-family: "Manrope", sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+   text-align: center;
+   color: #fff;
+   padding-bottom: 30px;
+}
+.technology-partner-logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   padding-bottom: 269px;
 }
 /**************************************/
 /************header banner area ******/
