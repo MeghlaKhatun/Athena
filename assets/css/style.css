@@ -429,17 +429,19 @@ a:hover {
 }
 
 .superior-data-heading img {
-   margin-left: 21px;
    margin-top: -48px;
    width: 94px;
    height: 94px;
+   position: absolute;
+   margin-left: 1150px;
 }
 
 .superior-data-para {
    margin-top: 39px;
    display: flex;
+   justify-content: center;
+   align-items: center;
 }
-
 .superior-data-para p {
    font-family: "Manrope", sans-serif;
    font-size: 28px;
@@ -449,7 +451,12 @@ a:hover {
    width: 65%;
    margin-left: 100px;
 }
-
+.superior-data-para img {
+   height: 53px;
+   width: 53px;
+   position: absolute;
+   margin-right: 1300px;
+}
 /**************************************/
 /************superior data area ******/
 /************************************/
