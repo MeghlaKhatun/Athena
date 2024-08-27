@@ -401,19 +401,19 @@ a:hover {
 /************************************/
 
 /**************************************/
-/************superior data area ******/
+/************decision data area ******/
 /************************************/
-.superior-data-area {
+.decision-data-area {
    background-color: #000000;
    padding-top: 169px;
 }
 
-.superior-data-heading {
+.decision-data-heading {
    display: flex;
    justify-content: center;
 }
 
-.superior-data-heading h1 {
+.decision-data-heading h1 {
    font-family: "Arimo", sans-serif;
    font-size: 80px;
    font-weight: 700;
@@ -422,7 +422,7 @@ a:hover {
    width: 70%;
 }
 
-.superior-data-heading::after {
+.decision-data-heading::after {
    content: "";
    background: url(../images/shines\ 1.png);
    background-repeat: no-repeat;
@@ -433,21 +433,21 @@ a:hover {
    margin-left: 1100px;
 }
 
-.superior-data-heading span {
+.decision-data-heading span {
    background: linear-gradient(90deg, #FFFFFF 45.05%, #FD49FF 83.25%);
    -webkit-text-fill-color: transparent;
    background-clip: text;
 }
 
 
-.superior-data-para {
+.decision-data-para {
    margin-top: 39px;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-.superior-data-para::before {
+.decision-data-para::before {
    content: "";
    background: url(../images/shines\ 2.png);
    background-repeat: no-repeat;
@@ -457,38 +457,68 @@ a:hover {
    margin-right: 1300px;
 }
 
-.superior-data-para p {
+.decision-data-para p {
    font-family: "Manrope", sans-serif;
    font-size: 28px;
    font-weight: 500;
    text-align: center;
    color: #fff;
    width: 65%;
+   Line-height: 38.25px;
 }
 
-.superior-main {
-   display: flex;
-   padding-top: 60px;
-}
-
-.superior-data-para img {
+.decision-data-para img {
    height: 53px;
    width: 53px;
    position: absolute;
    margin-right: 1300px;
 }
 
-.superior-dashbord {
+.decision-dashbord {
    display: flex;
    justify-content: center;
-   padding-bottom: 185px;
+   padding-top: 39px;
+   padding-bottom: 69px;
 }
 
-.superior-dashbord img {
+.decision-dashbord img {
    width: 1116px;
-   height: 784px;
+   height: 954px;
+   z-index: 1;
 }
 
+.decision-main::before {
+   position: absolute;
+   content: "";
+   background: url(../images/bg2.png);
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 1440px;
+   margin-left: -145px;
+   margin-top: 100px;
+}
+
+.decision-dashbord-text {
+   display: flex;
+   justify-content: center;
+   padding-top: 69px;
+   padding-bottom: 312px;
+   gap: 144px;
+}
+
+.decision-dashbord-text p {
+   color: #fff;
+   z-index: 1;
+   font-family: "Manrope", sans-serif;
+   font-family: Manrope;
+   font-size: 28px;
+   font-weight: 400;
+   text-align: left;
+   width: 38%;
+}
+.decision-dashbord-text p:last-child{
+   text-align: end;
+}
 /**************************************/
-/************superior data area ******/
+/************decision data area ******/
 /************************************/
