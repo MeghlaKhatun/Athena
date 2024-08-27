@@ -405,7 +405,7 @@ a:hover {
 /************************************/
 .decision-data-area {
    background-color: #000000;
-   padding-top: 169px;
+   padding-top: 100px;
 }
 
 .decision-data-heading {
@@ -516,9 +516,82 @@ a:hover {
    text-align: left;
    width: 38%;
 }
-.decision-dashbord-text p:last-child{
+
+.decision-dashbord-text p:last-child {
    text-align: end;
 }
+
 /**************************************/
 /************decision data area ******/
+/************************************/
+
+
+/**************************************/
+/************project feature area ******/
+/************************************/
+.project-container {
+   max-width: 1400px;
+   margin: 0 auto;
+}
+
+.project-feature-area {
+   background: url(../images/project-feature-bg.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   width: 100%;
+   background-color: #000;
+   padding-top: 69px;
+}
+
+.project-feature-heading h1 {
+   font-family: "Arimo", sans-serif;
+   font-size: 70px;
+   font-weight: 700;
+   color: #fff;
+}
+
+.project-items {
+   display: grid;
+   grid-template-columns: auto auto;
+   gap: 49px;
+}
+
+.item {
+   padding: 50px;
+   background-color: #0D1121;
+   box-shadow: 0px 4px 30px 4px #3A4D95 inset;
+   border-radius: 25px;
+   border: #2844A4 3px solid;
+}
+
+.small-item p {
+   width: 50%;
+}
+
+.item img {
+   width: 70px;
+   height: auto;
+}
+
+.item h2 {
+   font-family: "Arimo", sans-serif;
+   font-size: 42px;
+   font-weight: 700;
+   line-height: 48.3px;
+   color: #fff;
+   padding-top: 59px;
+   padding-bottom: 25px;
+}
+
+.item p {
+   font-family: "Manrope", sans-serif;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 32.78px;
+   color: #fff;
+}
+
+
+/**************************************/
+/************project feature area ******/
 /************************************/
