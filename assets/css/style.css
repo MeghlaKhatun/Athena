@@ -422,19 +422,23 @@ a:hover {
    width: 70%;
 }
 
+.superior-data-heading::after {
+   content: "";
+   background: url(../images/shines\ 1.png);
+   background-repeat: no-repeat;
+   width: 94px;
+   height: 94px;
+   position: absolute;
+   margin-top: -48px;
+   margin-left: 1100px;
+}
+
 .superior-data-heading span {
    background: linear-gradient(90deg, #FFFFFF 45.05%, #FD49FF 83.25%);
    -webkit-text-fill-color: transparent;
    background-clip: text;
 }
 
-.superior-data-heading img {
-   margin-top: -48px;
-   width: 94px;
-   height: 94px;
-   position: absolute;
-   margin-left: 1150px;
-}
 
 .superior-data-para {
    margin-top: 39px;
@@ -442,6 +446,17 @@ a:hover {
    justify-content: center;
    align-items: center;
 }
+
+.superior-data-para::before {
+   content: "";
+   background: url(../images/shines\ 2.png);
+   background-repeat: no-repeat;
+   width: 53px;
+   height: 53px;
+   position: absolute;
+   margin-right: 1300px;
+}
+
 .superior-data-para p {
    font-family: "Manrope", sans-serif;
    font-size: 28px;
@@ -449,14 +464,31 @@ a:hover {
    text-align: center;
    color: #fff;
    width: 65%;
-   margin-left: 100px;
 }
+
+.superior-main {
+   display: flex;
+   padding-top: 60px;
+}
+
 .superior-data-para img {
    height: 53px;
    width: 53px;
    position: absolute;
    margin-right: 1300px;
 }
+
+.superior-dashbord {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 185px;
+}
+
+.superior-dashbord img {
+   width: 1116px;
+   height: 784px;
+}
+
 /**************************************/
 /************superior data area ******/
 /************************************/
