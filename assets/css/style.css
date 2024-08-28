@@ -763,12 +763,9 @@ a:hover {
    justify-content: space-between;
    gap: 117px;
    color: #fff;
-   padding-bottom: 195px;
+   padding-bottom: 160px;
 }
 
-/* .road-map-list{
-   padding-bottom: 195px;
-} */
 .road-map-list h2 {
    font-family: "Montserrat", sans-serif;
    font-size: 40px;
@@ -798,4 +795,128 @@ a:hover {
 
 
 /************road map area end******/
+/************************************/
+
+/************athena token area end******/
+/************************************/
+.athena-token-area {
+   background: url(../images/token-bg.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   width: 100%;
+}
+
+.athena-token {
+   display: flex;
+   justify-content: space-between;
+   padding: 250px 0px 250px 40px;
+}
+
+.athena-token-left {
+   color: #fff;
+}
+
+.token-heading h1 {
+   font-family: "Arimo", sans-serif;
+   font-size: 84px;
+   font-weight: 700;
+}
+
+.token-heading span {
+   background: linear-gradient(90deg, #FFFFFF 40%, #FD49FF 100%);
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+
+.token-heading p {
+   font-family: "Manrope", sans-serif;
+   font-size: 28px;
+   font-weight: 400;
+   padding-top: 44px;
+   width: 88%;
+}
+
+.token-heading h2 {
+   font-family: "Urbanist", sans-serif;
+   font-size: 30px;
+   font-weight: 500;
+   padding-top: 56px;
+}
+
+.token-heading h3 {
+   font-family: "Urbanist", sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   padding-top: 17px;
+}
+
+.token-count {
+   display: flex;
+   gap: 130px;
+   padding-top: 77px;
+}
+
+.token-count h2 {
+   font-family: "Urbanist", sans-serif;
+   font-size: 30px;
+   font-weight: 500;
+}
+
+.token-count h1 {
+   font-family: "Urbanist", sans-serif;
+   font-size: 48px;
+   font-weight: 700;
+   padding-top: 10px;
+}
+
+.dextool-dexscreener-btn {
+   display: flex;
+   gap: 31px;
+   padding-top: 91px;
+}
+
+.token-btn a {
+   padding: 22px 148px 24px 31px;
+   background: linear-gradient(90deg, #FFFFFF 0%, #FD49FF 100%);
+   border-radius: 40px;
+   display: flex;
+   gap: 17px;
+   align-items: center;
+   font-family: "Urbanist", sans-serif;
+   font-size: 34px;
+   font-weight: 700;
+}
+
+.token-uniswap-btn {
+   padding-top: 38px;
+}
+
+.token-uniswap-btn a {
+   padding: 22px 0px 24px 33px;
+   background: linear-gradient(90deg, #FFFFFF 0%, #FD49FF 34%);
+   border-radius: 40px;
+   display: flex;
+   gap: 190px;
+   align-items: center;
+   font-family: "Urbanist", sans-serif;
+   font-size: 34px;
+   font-weight: 700;
+   width: 85%;
+   text-align: center;
+}
+
+.athena-token-left h4 {
+   font-family: "Urbanist", sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   padding-top: 62px;
+   text-align: center;
+}
+
+.athena-token-right img {
+   width: 100%;
+   height: auto;
+}
+
+/************athena token area end******/
 /************************************/
