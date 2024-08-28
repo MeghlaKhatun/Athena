@@ -569,7 +569,7 @@ a:hover {
    background-color: #0D1121;
    box-shadow: 0px 4px 30px 4px #3A4D95 inset;
    border-radius: 25px;
-   border: #2844A4 3px solid;
+   border: 3px solid #2844A4;
 }
 
 .item img {
@@ -624,5 +624,94 @@ a:hover {
    line-height: 32.78px;
 }
 
+.pricing-structure-cards {
+   display: flex;
+   justify-content: space-between;
+   gap: 36px;
+   padding-top: 52px;
+   color: #fff;
+}
+
+.pricing-card {
+   padding: 46px 46px 64px 46px;
+   background-color: #0D1121;
+   box-shadow: 0px 4px 30px 4px #3A4D95 inset;
+   border-radius: 25px;
+   border: 3px solid #2844A4;
+}
+
+.pricing-card h2 {
+   font-family: "Manrope", sans-serif;
+   font-size: 28px;
+   font-weight: 600;
+   text-align: center;
+}
+
+.pricing-card h1 {
+   font-family: "Sora", sans-serif;
+   font-size: 52px;
+   font-weight: 600;
+   text-align: center;
+   padding-top: 8px;
+}
+
+.pricing-card h3 {
+   font-family: "Manrope", sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 24.59px;
+   text-align: center;
+}
+
+.pricing-line {
+   display: flex;
+   justify-content: center;
+   padding-top: 59px;
+}
+
+.pricing-card p {
+   font-family: "Manrope", sans-serif;
+   font-size: 24px;
+   font-weight: 600;
+   text-align: left;
+   padding-top: 52px;
+   padding-bottom: 35px;
+}
+
+.pricing-card ul li {
+   font-family: "Manrope", sans-serif;
+   font-size: 24px;
+   font-weight: 600;
+   text-align: left;
+   margin-bottom: 40px;
+}
+
+.pricing-card ul li img {
+   margin-right: 15px;
+}
+
+.pricing-btn {
+   display: flex;
+   justify-content: center;
+   padding: 24px 0px;
+   border: 2px solid #FFFFFF4D;
+   border-radius: 50px;
+}
+.pricing-btn  a{
+   color: #fff;
+   font-family: "Manrope", sans-serif;
+   font-size: 24px;
+   font-weight: 700;
+   text-align: center;
+}
+.pricing-btn a i{
+   padding-left: 81px;
+   width: 22px;
+   height: 22px;
+}
+.pricing-card2{
+   background: radial-gradient(85.17% 85.17% at 50.1% -26.96%, #ED7EE1 0%, #152459 100%);
+
+}
 /************pricing structure area ******/
 /************************************/
