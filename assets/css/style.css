@@ -630,6 +630,7 @@ a:hover {
    gap: 36px;
    padding-top: 52px;
    color: #fff;
+   padding-bottom: 361px;
 }
 
 .pricing-card {
@@ -697,21 +698,104 @@ a:hover {
    border: 2px solid #FFFFFF4D;
    border-radius: 50px;
 }
-.pricing-btn  a{
+
+.pricing-btn a {
    color: #fff;
    font-family: "Manrope", sans-serif;
    font-size: 24px;
    font-weight: 700;
    text-align: center;
 }
-.pricing-btn a i{
+
+.pricing-btn a i {
    padding-left: 81px;
    width: 22px;
    height: 22px;
 }
-.pricing-card2{
+
+.pricing-card2 {
    background: radial-gradient(85.17% 85.17% at 50.1% -26.96%, #ED7EE1 0%, #152459 100%);
+}
+
+/************pricing structure area end******/
+/************************************/
+
+/************road map area start******/
+/************************************/
+.road-map-area {
+   background: url(../images/road-map-bg.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+   background-color: #040A1C;
+}
+
+.road-map-heading {
+   padding-top: 195px;
+   padding-bottom: 59px;
+   color: #fff;
+}
+
+.road-map-heading h2 {
+   font-family: "Arimo", sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   text-align: left;
+}
+
+.road-map-heading h1 {
+   font-family: "Arimo", sans-serif;
+   font-size: 90px;
+   font-weight: 700;
+   text-align: left;
+}
+
+.road-map-img img {
+   display: block;
+   overflow: hidden;
+   width: 100%;
+   padding-bottom: 57px;
+}
+
+.road-map-list-area {
+   display: flex;
+   justify-content: space-between;
+   gap: 117px;
+   color: #fff;
+   padding-bottom: 195px;
+}
+
+/* .road-map-list{
+   padding-bottom: 195px;
+} */
+.road-map-list h2 {
+   font-family: "Montserrat", sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   text-align: left;
+   padding-bottom: 57px;
+}
+
+.road-map-list ul li {
+   margin-bottom: 20px;
+   font-family: "Manrope", sans-serif;
+   font-size: 22px;
+   font-weight: 600;
+   text-align: left;
 
 }
-/************pricing structure area ******/
+
+.road-map-list ul li img {
+   margin-right: 38px;
+}
+
+.road-map-line {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 42px;
+}
+
+
+/************road map area end******/
 /************************************/
