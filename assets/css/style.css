@@ -599,3 +599,30 @@ a:hover {
 /**************************************/
 /************project feature area ******/
 /************************************/
+/**************************************/
+
+/************pricing structure area ******/
+/************************************/
+/**************************************/
+.pricing-structure-heading {
+   padding-top: 225px;
+   color: #fff;
+   text-align: center;
+}
+
+.pricing-structure-heading h1 {
+   font-family: "Arimo", sans-serif;
+   font-size: 84px;
+   font-weight: 700;
+   line-height: 96.59px;
+}
+
+.pricing-structure-heading p {
+   font-family: "Manrope", sans-serif;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 32.78px;
+}
+
+/************pricing structure area ******/
+/************************************/
