@@ -104,6 +104,7 @@
     .menu-bar ul li a {
         display: block;
         margin-bottom: 20px;
+        font-weight: 400;
     }
 
     .menu-bar ul {
@@ -116,12 +117,239 @@
 }
 
 
-@media all and (max-width:991px) {}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+     /* header section */
+     .logo img {
+        width: 180px;
+        height: auto;
+    }
 
-@media all and (max-width:767px) {}
+    .menu-bar ul li a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .menu-icon a img {
+        width: 65%;
+    }
 
-@media all and (max-width:575px) {}
+    .menu-bar ul {
+        gap: 20px;
+    }
 
-@media all and (max-width:413px) {}
+    .nav-btn {
+        font-size: 16px;
+        padding: 8px 20px 8px 30px;
+        margin-left: 10px;
+    }
 
-@media all and (max-width:374px) {}
+    .menu {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .menu-icon {
+        gap: 15px;
+    }
+
+    .menu-bar-icon {
+        display: block;
+    }
+
+    .menu-bar-icon a {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .menu-bar {
+        display: none;
+        position: absolute;
+        top: 110px;
+        right: 0px;
+        text-align: left;
+        padding: 50px 100px 80px 50px;
+        background-color: #000;
+    }
+
+    .menu-bar ul li a {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .menu-bar ul {
+        display: block;
+    }
+
+    .menu-bar.active {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+  /* header section */
+  .logo img {
+    width: 160px;
+    height: auto;
+}
+
+.menu-bar ul li a {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu-bar ul {
+    gap: 20px;
+}
+.menu-icon {
+    display: none;
+}
+.nav-btn {
+    font-size: 16px;
+    padding: 8px 20px 8px 30px;
+    margin-left: 10px;
+}
+.menu-icon a img {
+    width: 65%;
+}
+
+.menu {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu-bar-icon {
+    display: block;
+}
+
+.menu-bar-icon a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.fa-bars {
+    display: block;
+}
+
+.menu-bar {
+    display: none;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+    text-align: left;
+    padding: 50px 100px 80px 50px;
+    background-color: #000;
+}
+.menu-bar ul li a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.menu-bar ul {
+    display: block;
+}
+
+.menu-bar.active {
+    display: block;
+}
+}
+
+@media all and (max-width:574px) {
+  /* header section */
+  .logo img {
+    width: 160px;
+    height: auto;
+}
+
+.menu-bar ul li a {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu-bar ul {
+    gap: 20px;
+}
+.menu-icon {
+    display: none;
+}
+.nav-btn {
+    font-size: 16px;
+    padding: 8px 20px 8px 30px;
+    margin-left: 10px;
+}
+.menu-icon a img {
+    width: 65%;
+}
+
+.menu {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu-bar-icon {
+    display: block;
+}
+
+.menu-bar-icon a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.fa-bars {
+    display: block;
+}
+
+.menu-bar {
+    display: none;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+    text-align: left;
+    padding: 50px 100px 80px 50px;
+    background-color: #000;
+}
+.menu-bar ul li a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.menu-bar ul {
+    display: block;
+}
+
+.menu-bar.active {
+    display: block;
+}
+
+
+}
+
+@media all and (max-width:425px) {
+      /* header section */
+  .logo img {
+    width: 130px;
+    height: auto;
+}
+.menu-bar ul li a {
+    font-size: 14px;
+    font-weight: 400;
+}
+.menu-bar {
+    top: 90px;
+    padding: 40px 80px 40px 30px;
+}
+.menu {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
