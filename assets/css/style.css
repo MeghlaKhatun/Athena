@@ -905,17 +905,43 @@ a:hover {
    text-align: center;
 }
 
-.athena-token-left h4 {
-   font-family: "Urbanist", sans-serif;
-   font-size: 30px;
-   font-weight: 700;
-   padding-top: 62px;
-   text-align: center;
-}
-
 .athena-token-right img {
    width: 100%;
    height: auto;
+}
+
+/* token community */
+.token-community {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 177px;
+}
+
+.token-community h1 {
+   font-family: "Arimo", sans-serif;
+   font-size: 84px;
+   font-weight: 700;
+   background: linear-gradient(90deg, #FFFFFF 48.3%, #FD49FF 100%);
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+
+.token-community-btn {
+   display: flex;
+   gap: 24px;
+   align-items: center; 
+}
+
+.token-community-btn a {
+   border: 4px solid #FFFFFF99;
+   border-radius: 50px;
+   padding: 23px 129px 26px 92px;
+   font-family: "Arimo", sans-serif;
+   font-size: 34px;
+   font-weight: 700;
+   color: #fff;
+   text-align: center;
 }
 
 /************athena token area end******/
