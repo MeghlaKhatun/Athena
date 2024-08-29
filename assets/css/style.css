@@ -259,14 +259,14 @@ a:hover {
    width: 305px;
    height: auto;
 }
-.menu ul {
+.menu-bar ul {
    display: flex;
    flex-wrap: wrap;
    align-items: center;
    gap: 30px;
 }
 
-.menu ul li a {
+.menu-bar ul li a {
    font-family: "Sora", sans-serif;
    font-size: 24px;
    font-weight: 600;
