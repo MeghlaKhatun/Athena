@@ -234,6 +234,7 @@ a:hover {
    max-width: 1619px;
    width: 100%;
    margin: 0 auto;
+   padding: 0px 0px;
 }
 
 /**************************************/
@@ -245,7 +246,6 @@ a:hover {
    background-size: 100%;
    width: 100%;
 }
-
 .menu {
    display: flex;
    flex-wrap: wrap;
@@ -255,19 +255,10 @@ a:hover {
    padding-bottom: 193px;
 }
 
-.logo {
-   display: flex;
-   align-items: center;
-   gap: 9px;
+.logo img{
+   width: 305px;
+   height: auto;
 }
-
-.logo h1 {
-   color: #fff;
-   font-family: 'Clash Display', sans-serif;
-   font-size: 60px;
-   font-weight: 500;
-}
-
 .menu ul {
    display: flex;
    flex-wrap: wrap;
@@ -288,7 +279,9 @@ a:hover {
    align-items: center;
    gap: 25px;
 }
-
+.menu-icon a img{
+   width: 100%;
+}
 .nav-btn {
    font-family: "Manrope", sans-serif;
    font-size: 21px;
@@ -299,7 +292,10 @@ a:hover {
    border-radius: 50px;
    margin-left: 38px;
 }
-
+.menu-bar-icon{
+   display: none;
+}
+/* banner area */
 .banner-heading {
    text-align: center;
 }
@@ -376,6 +372,9 @@ a:hover {
    background-color: #fff;
    border-radius: 100%;
    margin-left: 87px;
+}
+.fa-bars{
+   display: none;
 }
 
 /* technology partner */

@@ -1,38 +1,100 @@
-@media only screen and (min-width: 1921px) and (max-width: 4800px) {}
-@media only screen and (min-width: 1440px) and (max-width: 1599px) {}
-@media only screen and (min-width: 1280px) and (max-width: 1439px) {}
-@media only screen and (min-width: 1024px) and (max-width: 1279px){}
+/* @media only screen and (min-width: 1921px) and (max-width: 4800px) {}
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {
 
-
-@media all and (max-width:1199px){
-	
+} */
+@media only screen and (min-width: 1280px) and (max-width: 1618px) {
+    /* header section */
+    .logo img {
+        width: 205px;
+        height: auto;
+    }
+    .menu ul li a {
+        font-size: 18px;
+    }
+    .menu-icon a img {
+        width: 75%;
+    }
+    .menu ul {
+        gap: 20px;
+    }
+    .nav-btn {
+        font-size: 19px;
+        padding: 10px 30px 10px 40px;
+        margin-left: 10px;
+    }
+    .menu {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 50px;
+    }
+    .menu-icon {
+        gap: 15px;
+    }
+    /* banner section */
 }
-@media all and (max-width:1140px){
-	
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    /* header section */
+    .logo img {
+        width: 205px;
+        height: auto;
+    }
+    .menu ul li a {
+        font-size: 18px;
+    }
+    .menu-icon a img {
+        width: 75%;
+    }
+    .menu ul {
+        gap: 20px;
+    }
+    .nav-btn {
+        font-size: 19px;
+        padding: 10px 30px 10px 40px;
+        margin-left: 10px;
+    }
+    .menu {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .menu-icon {
+        gap: 15px;
+    }
+   
+    .menu-bar-icon{     
+        display: block;
+     }
+     .menu-bar-icon a{
+        color: #fff;
+        font-size: 24px;
+     }
+     .menu ul{
+        position: absolute;
+        top: 120px;
+        display: none;
+     }
+     .menu-bar{
+        display: block;
+     }
+     .menu ul li a {
+        display: block;
+        margin-bottom: 15px;
+    }
 }
 
-@media all and (max-width:991px){
 
-}
+@media all and (max-width:1199px) {}
 
-@media all and (max-width:767px){
-	
-}
+@media all and (max-width:1140px) {}
 
-@media all and (max-width:575px){
-	
-}
+@media all and (max-width:991px) {}
 
-@media all and (max-width:413px){
+@media all and (max-width:767px) {}
 
-}
+@media all and (max-width:575px) {}
 
-@media all and (max-width:374px){
+@media all and (max-width:413px) {}
 
-}
-
-
-
-
-
-
+@media all and (max-width:374px) {}
