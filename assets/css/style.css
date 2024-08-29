@@ -245,6 +245,7 @@ a:hover {
    background-repeat: no-repeat;
    background-size: 100%;
    width: 100%;
+   background-color: #000;
 }
 .menu {
    display: flex;
@@ -325,6 +326,7 @@ a:hover {
    font-size: 28px;
    font-weight: 600;
    color: #fff;
+   margin-top: 10px;
 }
 
 .banner-btn {
