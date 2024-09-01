@@ -73,8 +73,43 @@
         width: 41px;
         margin-left: 80px;
     }
-    /* technology partner */
 
+    /* decision data section */
+    .decision-data-area {
+        padding-top: 120px;
+    }
+
+    .decision-data-heading h1 {
+        font-size: 70px;
+    }
+
+    .decision-data-heading::after {
+        margin-top: -40px;
+        margin-left: 1000px;
+    }
+
+    .decision-data-para p {
+        font-size: 22px;
+    }
+
+    .decision-data-para::before {
+        margin-right: 1050px;
+    }
+
+    .decision-dashbord img {
+        width: 1000px;
+        height: auto;
+    }
+
+    .decision-dashbord-text {
+        padding-top: 50px;
+        padding-bottom: 150px;
+        gap: 100px;
+    }
+
+    .decision-dashbord-text p {
+        font-size: 24px;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -189,10 +224,52 @@
         width: 38px;
         margin-left: 70px;
     }
+
     /* technology partner */
     .technology-partner-logo {
         gap: 40px;
         padding: 0px 20px 80px 20px;
+    }
+
+    /* decision data section */
+    .decision-data-area {
+        padding-top: 120px;
+    }
+
+    .decision-data-heading h1 {
+        font-size: 60px;
+    }
+
+    .decision-data-heading::after {
+        margin-top: -30px;
+        margin-left: 900px;
+    }
+
+    .decision-data-para {
+        margin-top: 30px;
+    }
+
+    .decision-data-para p {
+        font-size: 20px;
+    }
+
+    .decision-data-para::before {
+        margin-right: 900px;
+    }
+
+    .decision-dashbord img {
+        width: 800px;
+        height: auto;
+    }
+
+    .decision-dashbord-text {
+        padding-bottom: 140px;
+        gap: 70px;
+        padding-top: 40px;
+    }
+
+    .decision-dashbord-text p {
+        font-size: 20px;
     }
 }
 
@@ -309,9 +386,56 @@
         width: 35px;
         margin-left: 50px;
     }
+
     .technology-partner-logo img {
         width: 130px;
         height: auto;
+    }
+
+    /* decision data section */
+    .decision-data-area {
+        padding-top: 100px;
+    }
+
+    .decision-data-heading h1 {
+        font-size: 50px;
+    }
+
+    .decision-data-heading::after {
+        margin-top: -20px;
+        margin-left: 650px;
+    }
+
+    .decision-data-para {
+        margin-top: 30px;
+    }
+
+    .decision-data-para p {
+        font-size: 18px;
+    }
+
+    .decision-data-para::before {
+        margin-right: 650px;
+    }
+
+    .decision-dashbord img {
+        width: 650px;
+        height: auto;
+    }
+
+    .decision-dashbord-text {
+        padding-bottom: 100px;
+        gap: 60px;
+        padding-top: 30px;
+    }
+
+    .decision-dashbord-text p {
+        font-size: 18px;
+    }
+
+    .decision-main::before {
+        height: 850px;
+        margin-top: 80px;
     }
 }
 
@@ -429,13 +553,65 @@
         width: 27px;
         margin-left: 30px;
     }
+
     .technology-partner-logo {
         gap: 30px;
         padding-bottom: 70px;
     }
+
     .technology-partner-logo img {
         width: 130px;
         height: auto;
+    }
+
+    /* decision data section */
+    .decision-data-area {
+        padding-top: 90px;
+    }
+
+    .decision-data-heading h1 {
+        font-size: 40px;
+    }
+
+    .decision-data-heading::after {
+        margin-top: -20px;
+        margin-left: 400px;
+    }
+
+    .decision-data-para {
+        margin-top: 20px;
+    }
+
+    .decision-data-para p {
+        font-size: 17px;
+    }
+
+    .decision-data-para::before {
+        margin-right: 490px;
+    }
+
+    .decision-dashbord img {
+        width: 450px;
+        height: auto;
+    }
+
+    .decision-dashbord {
+        padding-bottom: 30px;
+    }
+
+    .decision-dashbord-text {
+        padding-bottom: 80px;
+        gap: 50px;
+        padding-top: 25px;
+    }
+
+    .decision-dashbord-text p {
+        font-size: 16px;
+    }
+
+    .decision-main::before {
+        height: 660px;
+        margin-top: 60px;
     }
 
 }
@@ -553,13 +729,68 @@
         width: 27px;
         margin-left: 30px;
     }
+
     .technology-partner-logo img {
         width: 100px;
         height: auto;
     }
+
     .technology-partner-logo {
         gap: 25px;
         padding-bottom: 70px;
+    }
+
+    /* decision data section */
+    .decision-data-area {
+        padding-top: 0px;
+    }
+
+    .decision-data-heading h1 {
+        font-size: 30px;
+    }
+
+    .decision-data-heading::after {
+        /* margin-top: -15px;
+            margin-left: 430px; */
+        display: none;
+    }
+
+    .decision-data-para {
+        margin-top: 17px;
+    }
+
+    .decision-data-para p {
+        font-size: 15px;
+    }
+
+    .decision-data-para::before {
+        /* margin-right: 430px; */
+        display: none;
+    }
+
+    .decision-dashbord img {
+        width: 400px;
+        height: auto;
+    }
+
+    .decision-dashbord {
+        padding-bottom: 20px;
+    }
+
+    .decision-dashbord-text {
+        padding-bottom: 70px;
+        gap: 40px;
+        padding-top: 20px;
+    }
+
+    .decision-dashbord-text p {
+        font-size: 14px;
+    }
+
+    .decision-main::before {
+        height: 580px;
+        margin-top: 60px;
+        width: 70%;
     }
 
 }
@@ -588,55 +819,100 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-        /* banner section */
-        .banner-heading h2 {
-            font-size: 22px;
-            font-weight: 600;
-        }
-    
-        .banner-heading h1 {
-            font-size: 30px;
-            font-weight: 600;
-        }
-    
-        .banner-heading p {
-            font-size: 16px;
-            font-weight: normal;
-            width: 60%;
-            margin: 7px auto 0px auto;
-        }
-    
-        .banner-btn {
-            padding-top: 30px;
-            padding-bottom: 50px;
-        }
-    
-        .banner-read-btn {
-            padding: 7px 10px 7px 10px;
-            font-size: 14px;
-        }
-    
-        .banner-read-btn i {
-            padding-left: 20px;
-        }
-    
-        .banner-try-demo-btn {
-            font-size: 14px;
-            padding: 6px 7px 6px 15px;
-        }
-    
-        .banner-try-demo-btn i {
-            height: 20px;
-            width: 20px;
-            margin-left: 20px;
-        }
-        .technology-partner-logo img {
-            width: 80px;
-            height: auto;
-        }
-        .technology-partner-logo {
-            gap: 20px;
-            padding: 0px 20px 70px 20px;
-        }
-    
+
+    /* banner section */
+    .banner-heading h2 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .banner-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .banner-heading p {
+        font-size: 16px;
+        font-weight: normal;
+        width: 60%;
+        margin: 7px auto 0px auto;
+    }
+
+    .banner-btn {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .banner-read-btn {
+        padding: 7px 10px 7px 10px;
+        font-size: 14px;
+    }
+
+    .banner-read-btn i {
+        padding-left: 20px;
+    }
+
+    .banner-try-demo-btn {
+        font-size: 14px;
+        padding: 6px 7px 6px 15px;
+    }
+
+    .banner-try-demo-btn i {
+        height: 20px;
+        width: 20px;
+        margin-left: 20px;
+    }
+
+    .technology-partner-logo img {
+        width: 80px;
+        height: auto;
+    }
+
+    .technology-partner-logo {
+        gap: 20px;
+        padding: 0px 20px 70px 20px;
+    }
+
+    /* decision data section */
+    .decision-data-area {
+        padding-top: 0px;
+    }
+
+    .decision-data-heading h1 {
+        font-size: 25px;
+    }
+
+    .decision-data-para {
+        margin-top: 15px;
+    }
+
+    .decision-data-para p {
+        font-size: 14px;
+    }
+
+    .decision-dashbord img {
+        width: 350px;
+        height: auto;
+    }
+
+    .decision-dashbord {
+        padding-bottom: 10px;
+    }
+
+    .decision-dashbord-text {
+        padding-bottom: 60px;
+        gap: 30px;
+        padding-top: 15px;
+    }
+
+    .decision-dashbord-text p {
+        font-size: 14px;
+    }
+
+    .decision-main::before {
+        height: 600px;
+        margin-top: 50px;
+        width: 70%;
+    }
+
 }
