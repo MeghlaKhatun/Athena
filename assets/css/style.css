@@ -629,8 +629,8 @@ a:hover {
 }
 
 .pricing-structure-cards {
-   display: flex;
-   justify-content: space-between;
+   display: grid;
+   grid-template-columns: repeat(3, minmax(0, 1fr));
    gap: 36px;
    padding-top: 52px;
    color: #fff;
