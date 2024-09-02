@@ -203,6 +203,40 @@
     .pricing-btn a {
         font-size: 20px;
     }
+
+    /* road map area */
+    .road-map-heading {
+        padding-top: 149px;
+        padding-bottom: 50px;
+    }
+
+    .road-map-heading h2 {
+        font-size: 35px;
+    }
+
+    .road-map-heading h1 {
+        font-size: 70px;
+    }
+
+    .road-map-img img {
+        padding-bottom: 50px;
+    }
+
+    .road-map-list h2 {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .road-map-list ul li {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .road-map-list-area {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 100px;
+        padding-bottom: 120px;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -464,6 +498,45 @@
     .pricing-btn a {
         font-size: 20px;
     }
+
+    /* road map area */
+    .road-map-heading {
+        padding: 130px 30px 40px 30px;
+    }
+
+    .road-map-heading h2 {
+        font-size: 30px;
+    }
+
+    .road-map-heading h1 {
+        font-size: 60px;
+    }
+
+    .road-map-img img {
+        padding-bottom: 40px;
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    .road-map-list h2 {
+        font-size: 25px;
+    }
+
+    .road-map-list ul li {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .road-map-list-area {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px;
+        padding: 40px 40px 80px 40px;
+    }
+
+    .road-map-line img {
+        width: 95%;
+        margin: 0px auto;
+    }
 }
 
 
@@ -676,9 +749,9 @@
         grid-column: span 6;
     }
 
-       /* pricing structure area  */
+    /* pricing structure area  */
 
-       .pricing-structure-heading {
+    .pricing-structure-heading {
         padding-top: 100px;
     }
 
@@ -742,10 +815,53 @@
         font-size: 18px;
         font-weight: normal;
     }
+
     .pricing-btn a i {
         padding-left: 60px;
         width: 20px;
         height: 20px;
+    }
+
+    /* road map area */
+    .road-map-heading {
+        padding: 100px 20px 35px 20px;
+    }
+
+    .road-map-heading h2 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .road-map-heading h1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .road-map-img img {
+        padding-bottom: 35px;
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    .road-map-list h2 {
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+
+    .road-map-list ul li {
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+
+    .road-map-list-area {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px;
+        padding: 35px 30px 70px 30px;
+    }
+
+    .road-map-line img {
+        width: 95%;
+        margin: 0px auto;
     }
 }
 
@@ -969,10 +1085,10 @@
     .item23 {
         grid-column: span 12;
     }
-    
-       /* pricing structure area  */
 
-       .pricing-structure-heading {
+    /* pricing structure area  */
+
+    .pricing-structure-heading {
         padding-top: 90px;
     }
 
@@ -1010,10 +1126,12 @@
     .pricing-line img {
         width: 100%;
     }
+
     .pricing-card h3 {
         font-size: 16px;
         font-weight: 400;
     }
+
     .pricing-card p {
         font-size: 16px;
         padding-top: 35px;
@@ -1040,10 +1158,60 @@
         font-size: 16px;
         font-weight: normal;
     }
+
     .pricing-btn a i {
         padding-left: 60px;
         width: 20px;
         height: 20px;
+    }
+
+    /* road map area */
+    .road-map-heading {
+        padding: 90px 20px 30px 20px;
+    }
+
+    .road-map-heading h2 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .road-map-heading h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .road-map-img img {
+        padding-bottom: 30px;
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    .road-map-list h2 {
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+
+    .road-map-list ul li {
+        margin-bottom: 12px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .road-map-list ul li img {
+        margin-right: 20px;
+        width: 15px;
+        height: auto;
+    }
+
+    .road-map-list-area {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 40px;
+        padding: 35px 30px 70px 30px;
+    }
+
+    .road-map-line img {
+        width: 95%;
+        margin: 0px auto;
     }
 
 }
@@ -1268,9 +1436,10 @@
     .item23 {
         grid-column: span 12;
     }
-      /* pricing structure area  */
 
-      .pricing-structure-heading {
+    /* pricing structure area  */
+
+    .pricing-structure-heading {
         padding-top: 70px;
     }
 
@@ -1308,10 +1477,12 @@
     .pricing-line img {
         width: 100%;
     }
+
     .pricing-card h3 {
         font-size: 14px;
         font-weight: 400;
     }
+
     .pricing-card p {
         font-size: 14px;
         padding-top: 30px;
@@ -1338,11 +1509,62 @@
         font-size: 14px;
         font-weight: normal;
     }
+
     .pricing-btn a i {
         padding-left: 40px;
         width: 18px;
         height: 18px;
     }
+    
+    /* road map area */
+    .road-map-heading {
+        padding: 70px 20px 20px 20px;
+    }
+
+    .road-map-heading h2 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .road-map-heading h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .road-map-img img {
+        padding-bottom: 25px;
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    .road-map-list h2 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .road-map-list ul li {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .road-map-list ul li img {
+        margin-right: 15px;
+        width: 13px;
+        height: auto;
+    }
+
+    .road-map-list-area {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 30px;
+        padding: 35px 20px 50px 20px;
+    }
+
+    .road-map-line img {
+        width: 95%;
+        margin: 0px auto;
+    }
+
 
 }
 
