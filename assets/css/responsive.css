@@ -3,6 +3,9 @@
 
 } */
 @media only screen and (min-width: 1280px) and (max-width: 1618px) {
+    .container {
+        width: 95%;
+    }
 
     /* header section */
     .logo img {
@@ -75,6 +78,9 @@
     }
 
     /* decision data section */
+    .decision-main::before {
+        height: 1100px;
+    }
     .decision-data-area {
         padding-top: 120px;
     }
@@ -232,6 +238,9 @@
     }
 
     /* decision data section */
+    .decision-main::before {
+        height: 950px;
+    }
     .decision-data-area {
         padding-top: 120px;
     }
@@ -242,7 +251,9 @@
 
     .decision-data-heading::after {
         margin-top: -30px;
-        margin-left: 900px;
+        margin-left: 850px;
+        height: 80px;
+        width: 80px;
     }
 
     .decision-data-para {
@@ -255,6 +266,8 @@
 
     .decision-data-para::before {
         margin-right: 900px;
+        height: 50px;
+        width: 50px;
     }
 
     .decision-dashbord img {
@@ -403,7 +416,9 @@
 
     .decision-data-heading::after {
         margin-top: -20px;
-        margin-left: 650px;
+        margin-left: 680px;
+        height: 70px;
+        width: 70px;
     }
 
     .decision-data-para {
@@ -415,7 +430,9 @@
     }
 
     .decision-data-para::before {
-        margin-right: 650px;
+        margin-right: 700px;
+        height: 45px;
+        width: 45px;
     }
 
     .decision-dashbord img {
@@ -575,7 +592,9 @@
 
     .decision-data-heading::after {
         margin-top: -20px;
-        margin-left: 400px;
+        margin-left: 500px;
+        height: 60px;
+        width: 60px;
     }
 
     .decision-data-para {
@@ -588,6 +607,8 @@
 
     .decision-data-para::before {
         margin-right: 490px;
+        height: 40px;
+        width: 40px;
     }
 
     .decision-dashbord img {
@@ -750,9 +771,10 @@
     }
 
     .decision-data-heading::after {
-        /* margin-top: -15px;
-            margin-left: 430px; */
-        display: none;
+        margin-top: -15px;
+        margin-left: 320px;
+        height: 40px;
+        width: 40px;
     }
 
     .decision-data-para {
@@ -764,8 +786,9 @@
     }
 
     .decision-data-para::before {
-        /* margin-right: 430px; */
-        display: none;
+        margin-right: 330px;
+        height: 30px;
+        width: 30px;
     }
 
     .decision-dashbord img {
@@ -910,7 +933,7 @@
     }
 
     .decision-main::before {
-        height: 600px;
+        height: 560px;
         margin-top: 50px;
         width: 70%;
     }

@@ -429,7 +429,7 @@ a:hover {
 
 .decision-data-heading::after {
    content: "";
-   background: url(../images/shines\ 1.png);
+   background: url(../images/shines\ 1.png) scroll 0 0 / 100% 100%;
    background-repeat: no-repeat;
    width: 94px;
    height: 94px;
@@ -454,7 +454,7 @@ a:hover {
 
 .decision-data-para::before {
    content: "";
-   background: url(../images/shines\ 2.png);
+   background: url(../images/shines\ 2.png) scroll 0 0 / 100% 100%;
    background-repeat: no-repeat;
    width: 53px;
    height: 53px;
