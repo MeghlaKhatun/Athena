@@ -237,6 +237,86 @@
         gap: 100px;
         padding-bottom: 120px;
     }
+
+    /* athena token area */
+    .athena-token {
+        padding: 150px 0px 150px 40px;
+    }
+
+    .token-heading h1 {
+        font-size: 70px;
+    }
+
+    .token-heading p {
+        font-size: 24px;
+        padding-top: 35px;
+        width: 80%;
+    }
+
+    .token-heading h2 {
+        font-size: 26px;
+        padding-top: 40px;
+    }
+
+    .token-heading h3 {
+        font-size: 26px;
+        padding-top: 15px;
+    }
+
+    .token-count {
+        gap: 100px;
+        padding-top: 60px;
+    }
+
+    .token-count h2 {
+        font-size: 26px;
+    }
+
+    .token-count h1 {
+        font-size: 40px;
+        padding-top: 8px;
+    }
+
+    .dextool-dexscreener-btn {
+        gap: 20px;
+        padding-top: 70px;
+    }
+
+    .token-btn a {
+        padding: 18px 120px 18px 25px;
+        gap: 15px;
+        font-size: 30px;
+    }
+
+    .token-uniswap-btn a {
+        padding: 18px 0px 18px 25px;
+        gap: 150px;
+        font-size: 30px;
+        width: 96%;
+    }
+
+    .token-uniswap-btn {
+        padding-top: 30px;
+    }
+
+    .token-community {
+        padding-bottom: 150px;
+    }
+
+    .token-community h1 {
+        font-size: 65px;
+    }
+
+    .token-community-btn {
+        gap: 20px;
+    }
+
+    .token-community-btn a {
+        border: 3px solid #FFFFFF99;
+        padding: 18px 60px 18px 60px;
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -536,6 +616,91 @@
     .road-map-line img {
         width: 95%;
         margin: 0px auto;
+    }
+
+    /* athena token area */
+    .container {
+        width: 95%;
+    }
+
+    .athena-token {
+        padding: 120px 0px 120px 0px;
+    }
+
+    .token-heading h1 {
+        font-size: 60px;
+    }
+
+    .token-heading p {
+        font-size: 20px;
+        padding-top: 30px;
+        width: 80%;
+    }
+
+    .token-heading h2 {
+        font-size: 22px;
+        padding-top: 30px;
+    }
+
+    .token-heading h3 {
+        font-size: 22px;
+        padding-top: 15px;
+    }
+
+    .token-count {
+        gap: 90px;
+        padding-top: 50px;
+    }
+
+    .token-count h2 {
+        font-size: 24px;
+    }
+
+    .token-count h1 {
+        font-size: 35px;
+        padding-top: 8px;
+    }
+
+    .dextool-dexscreener-btn {
+        gap: 15px;
+        padding-top: 60px;
+    }
+
+    .token-btn a {
+        padding: 18px 100px 18px 20px;
+        gap: 15px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .token-uniswap-btn a {
+        padding: 18px 0px 18px 20px;
+        gap: 150px;
+        font-size: 25px;
+        width: 96%;
+    }
+
+    .token-uniswap-btn {
+        padding-top: 25px;
+    }
+
+    .token-community {
+        padding-bottom: 120px;
+    }
+
+    .token-community h1 {
+        font-size: 55px;
+    }
+
+    .token-community-btn {
+        gap: 15px;
+    }
+
+    .token-community-btn a {
+        border: 3px solid #FFFFFF99;
+        padding: 16px 50px 16px 50px;
+        font-size: 25px;
+        font-weight: 500;
     }
 }
 
@@ -862,6 +1027,97 @@
     .road-map-line img {
         width: 95%;
         margin: 0px auto;
+    }
+
+    /* athena token area */
+    .container {
+        width: 95%;
+    }
+
+    .athena-token {
+        padding: 100px 30px 100px 30px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 75px;
+    }
+
+    .token-heading h1 {
+        font-size: 50px;
+    }
+
+    .token-heading p {
+        font-size: 20px;
+        padding-top: 25px;
+        width: 90%;
+    }
+
+    .token-heading h2 {
+        font-size: 22px;
+        padding-top: 25px;
+    }
+
+    .token-heading h3 {
+        font-size: 22px;
+        padding-top: 15px;
+        font-weight: 500;
+    }
+
+    .token-count {
+        gap: 80px;
+        padding-top: 50px;
+    }
+
+    .token-count h2 {
+        font-size: 24px;
+    }
+
+    .token-count h1 {
+        font-size: 35px;
+        padding-top: 8px;
+    }
+
+    .dextool-dexscreener-btn {
+        gap: 15px;
+        padding-top: 60px;
+    }
+
+    .token-btn a {
+        padding: 16px 100px 16px 20px;
+        gap: 15px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .token-uniswap-btn a {
+        padding: 16px 0px 16px 20px;
+        gap: 150px;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .token-uniswap-btn {
+        padding-top: 25px;
+    }
+
+    .token-community {
+        padding-bottom: 100px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .token-community h1 {
+        font-size: 50px;
+    }
+
+    .token-community-btn {
+        gap: 25px;
+    }
+
+    .token-community-btn a {
+        border: 3px solid #FFFFFF99;
+        padding: 16px 50px 16px 50px;
+        font-size: 20px;
+        font-weight: 500;
     }
 }
 
@@ -1214,6 +1470,107 @@
         margin: 0px auto;
     }
 
+    /* athena token area */
+    .container {
+        width: 95%;
+    }
+
+    .athena-token {
+        padding: 80px 20px 80px 20px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 70px;
+    }
+
+    .token-heading h1 {
+        font-size: 40px;
+    }
+
+    .token-heading p {
+        font-size: 18px;
+        padding-top: 20px;
+        width: 90%;
+    }
+
+    .token-heading h2 {
+        font-size: 22px;
+        padding-top: 25px;
+    }
+
+    .token-heading h3 {
+        font-size: 20px;
+        padding-top: 12px;
+        font-weight: 400;
+    }
+
+    .token-count {
+        gap: 70px;
+        padding-top: 40px;
+    }
+
+    .token-count h2 {
+        font-size: 20px;
+    }
+
+    .token-count h1 {
+        font-size: 30px;
+        padding-top: 8px;
+    }
+
+    .dextool-dexscreener-btn {
+        gap: 15px;
+        padding-top: 50px;
+    }
+
+    .dextool-dexscreener-btn a img {
+        width: 30px;
+        height: auto;
+    }
+
+    .token-uniswap-btn a img {
+        width: 30px;
+        height: auto;
+    }
+
+    .token-btn a {
+        padding: 14px 80px 14px 15px;
+        gap: 15px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .token-uniswap-btn a {
+        padding: 16px 0px 16px 20px;
+        gap: 120px;
+        font-size: 20px;
+        width: 88%;
+    }
+
+    .token-uniswap-btn {
+        padding-top: 20px;
+    }
+
+    .token-community {
+        padding-bottom: 90px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .token-community h1 {
+        font-size: 40px;
+    }
+
+    .token-community-btn {
+        gap: 20px;
+    }
+
+    .token-community-btn a {
+        border: 2px solid #FFFFFF99;
+        padding: 14px 40px 14px 40px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
 }
 
 @media all and (max-width:574px) {
@@ -1454,7 +1811,7 @@
     .pricing-structure-cards {
         grid-template-columns: repeat(1, minmax(0, 1fr));
         gap: 20px;
-        padding: 30px 20px 80px 20px;
+        padding: 30px 20px 40px 20px;
     }
 
     .pricing-card {
@@ -1515,10 +1872,10 @@
         width: 18px;
         height: 18px;
     }
-    
+
     /* road map area */
     .road-map-heading {
-        padding: 70px 20px 20px 20px;
+        padding: 40px 20px 20px 20px;
     }
 
     .road-map-heading h2 {
@@ -1563,6 +1920,109 @@
     .road-map-line img {
         width: 95%;
         margin: 0px auto;
+    }
+      /* athena token area */
+      .container {
+        width: 95%;
+    }
+
+    .athena-token {
+        padding: 60px 20px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .token-heading h1 {
+        font-size: 30px;
+    }
+
+    .token-heading p {
+        font-size: 16px;
+        font-weight: normal;
+        padding-top: 15px;
+        width: 90%;
+    }
+
+    .token-heading h2 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .token-heading h3 {
+        font-size: 18px;
+        padding-top: 10px;
+        font-weight: 400;
+        overflow: hidden;
+    }
+
+    .token-count {
+        gap: 60px;
+        padding-top: 30px;
+    }
+
+    .token-count h2 {
+        font-size: 18px;
+    }
+
+    .token-count h1 {
+        font-size: 25px;
+        padding-top: 6px;
+    }
+
+    .dextool-dexscreener-btn {
+        gap: 15px;
+        padding-top: 40px;
+    }
+
+    .dextool-dexscreener-btn a img {
+        width: 25px;
+        height: auto;
+    }
+
+    .token-uniswap-btn a img {
+        width: 25px;
+        height: auto;
+    }
+
+    .token-btn a {
+        padding: 10px 40px 10px 10px;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .token-uniswap-btn a {
+        padding: 12px 0px 12px 12px;
+        gap: 70px;
+        font-size: 18px;
+        width: 100%;
+        font-weight: normal;
+    }
+
+    .token-uniswap-btn {
+        padding-top: 20px;
+    }
+
+    .token-community {
+        padding-bottom: 70px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .token-community h1 {
+        font-size: 30px;
+    }
+
+    .token-community-btn {
+        gap: 15px;
+    }
+
+    .token-community-btn a {
+        border: 2px solid #FFFFFF99;
+        padding: 10px 30px;
+        font-size: 16px;
+        font-weight: 400;
     }
 
 
